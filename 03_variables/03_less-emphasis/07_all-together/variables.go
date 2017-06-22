@@ -15,7 +15,7 @@ func main() {
 	h, i := "stored in h", "stored in i"
 	j, k, l, m := 44.7, true, false, 'm' // single quotes
 	n := "n"                             // double quotes
-	o := `o`                             // back ticks
+	o := `o`                             // back-ticks work like double-quotes
 
 	fmt.Println("a - ", a)
 	fmt.Println("b - ", b)

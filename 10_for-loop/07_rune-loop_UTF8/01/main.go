@@ -6,7 +6,7 @@ func main() {
 	for i := 250; i <= 340; i++ {
 		fmt.Println(i, " - ", string(i), " - ", []byte(string(i)))
 	}
-	foo := "a"	// foo := 'a' will print 97, decimal value for a
+	foo := "a" // foo := 'a' will print 97, decimal value for a
 	fmt.Println(foo)
 	fmt.Printf("%T \n", foo)
 	// fmt.Printf("%T \n", rune(foo)) 	// rune() gives decimal value for char supplied, 97 for 'a'
