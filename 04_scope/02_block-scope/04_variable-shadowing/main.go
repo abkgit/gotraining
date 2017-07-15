@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func max(x int) int {  //lowercase func name, so not exported(visible outside package)
+func max(x int) int { //lowercase func name, so not exported(visible outside package)
 	return 42 + x
 }
 

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/abkgit/gotraining/02_package/stringutil"
 	"github.com/abkgit/gotraining/02_package/icomefromalaska"
+	"github.com/abkgit/gotraining/02_package/stringutil"
 	//someAlias "github.com/abkgit/gotraining/02_package/icomefromalaska"
 )
 
