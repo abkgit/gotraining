@@ -9,7 +9,7 @@ func main() {
 }
 
 func average(sf ...float64) float64 {
-	total := 0.0
+	var total float64
 	for _, v := range sf {
 		total += v
 	}
