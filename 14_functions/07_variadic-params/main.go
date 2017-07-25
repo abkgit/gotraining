@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	n := average(43, 56, 87, 12, 45, 57)
+	n := average(43, 56, 87, 12, 45, 57)		// n is of type "kind"(undefined type)
 	fmt.Println(n)
 }
 

@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	data := []float64{43, 56, 87, 12, 45, 57}
-	n := average(data...)
+	n := average(data...)	// pass items one at a time instead of passing the whole slice
 	fmt.Println(n)
 }
 
