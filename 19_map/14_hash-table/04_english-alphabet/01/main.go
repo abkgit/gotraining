@@ -13,7 +13,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	bs, _ := ioutil.ReadAll(res.Body)
+	bs, _ := ioutil.ReadAll(res.Body) // slice of bytes: bs
 	str := string(bs)
 	fmt.Println(str)
 }
