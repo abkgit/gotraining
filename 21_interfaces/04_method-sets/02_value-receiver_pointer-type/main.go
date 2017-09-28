@@ -18,7 +18,7 @@ func (c circle) area() float64 {
 }
 
 func info(s shape) {
-	fmt.Println("area", s.area())
+	fmt.Println("area ", s.area())
 }
 
 func main() {
