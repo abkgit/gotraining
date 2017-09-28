@@ -10,6 +10,7 @@ type person struct {
 	Age  int
 }
 
+// Modifies print pattern for given person type.
 func (p person) String() string {
 	return fmt.Sprintf("YAYAYA %s: %d", p.Name, p.Age)
 }
