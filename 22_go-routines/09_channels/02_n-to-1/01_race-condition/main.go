@@ -11,7 +11,7 @@ func main() {
 	var wg sync.WaitGroup
 
 	go func() {
-		wg.Add(1)
+		wg.Add(1) // causing race condition
 		for i := 0; i < 10; i++ {
 			c <- i
 		}
@@ -19,7 +19,7 @@ func main() {
 	}()
 
 	go func() {
-		wg.Add(1)
+		wg.Add(1) // causing race condition
 		for i := 0; i < 10; i++ {
 			c <- i
 		}
