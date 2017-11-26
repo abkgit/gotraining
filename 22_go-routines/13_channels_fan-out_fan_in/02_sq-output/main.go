@@ -51,7 +51,7 @@ func merge(cs ...chan int) chan int {
 	var wg sync.WaitGroup
 	wg.Add(len(cs))
 
-	for _, c := range cs {
+	for _, c := range cs {		// watch video #148(FanOut/FanIn Example) for the best explanation.
 		go func(ch chan int) {
 			for n := range ch {
 				out <- n
